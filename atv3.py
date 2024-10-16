@@ -2,7 +2,7 @@ import tkinter as tk
 from tkinter.messagebox import showinfo
 
 def show_message():
-    showinfo("Informação", "Goku is the best!!!")
+    showinfo("Informação", "KAKAROTTOOOOOOOOOOOO!!!")
 
 window = tk.Tk()
 
@@ -16,7 +16,7 @@ rotulo = tk.Label(window, image=imagem)
 rotulo.pack()
 
 button = tk.Button(window, text="Goku ou Saitama???", command= show_message)
-button.pack(pady=10)
+button.pack(pady=1)
 
 window.mainloop()
 
