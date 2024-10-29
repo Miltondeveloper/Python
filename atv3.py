@@ -11,12 +11,15 @@ window.title("Kakarotto")
 window.geometry("800x800")
 
 imagem = tk.PhotoImage(file="goku.png")
+imagem2 =tk.PhotoImage(file="esfera.png")
+
 
 rotulo = tk.Label(window, image=imagem)
 rotulo.pack()
 
-button = tk.Button(window, text="Goku ou Saitama???", command= show_message)
+button = tk.Button(window, image=imagem2,text="Goku ou Saitama???", command= show_message)
 button.pack(pady=1)
 
 window.mainloop()
+
 
